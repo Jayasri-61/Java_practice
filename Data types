@@ -1,0 +1,32 @@
+// Primitive Data types
+
+public class function3 {
+public static void main(String[] str) {
+	
+		//byte a=130; out  of range
+	    byte a=127;
+		System.out.println(a);
+		
+		short b=12345;
+		System.out.println(b);
+		
+		//int c=789999908767576565; out of range
+		int c=1234567;
+		System.out.println(c);
+		
+		long d=1234567890;
+		System.out.println(d);
+		
+		float e=123.4562324f;
+		System.out.println(e);
+		
+		double f=123.1342345545231544;
+		System.out.println(f); 
+		
+		char g='J';
+		System.out.println(g);
+		
+		boolean status = true;
+        System.out.println(status);	
+	}
+}
