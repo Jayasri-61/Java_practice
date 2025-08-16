@@ -1,0 +1,37 @@
+
+//Simple print statement
+public class shiv {
+public static void main(String[] args) {
+System.out.println("hello");	
+}
+}
+
+//Using a local variable
+class sample {
+	public static void main(String[] args) {
+		int a=13;
+	System.out.println(a);	
+	}
+	}
+
+//Object creation and instance variable access
+class demo {
+	int b=12;
+	public static void main(String[] args) {
+		demo obj=new demo();
+	System.out.println(obj.b);	
+	}
+	}
+
+//Using a static variable
+class dev {
+	static int b=12;
+	public static void main(String[] args) {
+	System.out.println(b);	
+	}
+	}
+
+
+
+
+
