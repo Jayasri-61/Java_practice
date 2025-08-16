@@ -1,0 +1,25 @@
+
+public class function4 {
+	int var1=1000;                    //instance variable
+	static int var2=2000;            //static variable
+public static void main(String[] str) {
+	int var3=3000;                   //local variable
+	function4 obj = new function4();
+	System.out.println(obj.var1);
+	System.out.println(var2);
+	System.out.println(var3);
+	
+	obj.var1=4000;                  //Reassigning values
+	var2=5000;
+	var3=6000;
+	System.out.println(obj.var1);    
+	System.out.println(var2);
+	System.out.println(var3);
+	
+	function4 obj1 = new function4();
+	System.out.println(obj1.var1);
+	System.out.println(obj1.var2);
+	System.out.println(function4.var2);
+	System.out.println(var3);		
+}
+}
