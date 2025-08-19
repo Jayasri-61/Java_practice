@@ -1,0 +1,31 @@
+public class Inheritance {
+	public static void main(String[] str) {
+        System.out.println("food");
+        Dog obj=new Dog();
+        obj.run();
+        obj.play();           //method 1
+        new Dog().run();      //method 2
+        new Dog() {           //method 3
+        	 public void jump() {
+        	        System.out.println("puppy");
+        	        sleep();           
+        	        eat();
+        	    }
+        	 public void eat() {
+        	        System.out.println("chick");
+        	     
+        	}
+        }.jump();
+}
+	}
+class Dog extends Inheritance {
+    public void run() {
+        System.out.println("bark");
+    }
+    public void sleep() {
+        System.out.println("boy");
+    }
+    public void play() {
+        System.out.println("ball");
+}
+}		
