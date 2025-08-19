@@ -1,0 +1,19 @@
+//compile time polymorphism/Method overloading
+
+public class Polymorphism {
+ public static void main(String[] str) {
+	 bird obj=new bird();
+	 obj.fly("parrot","blue");
+	 obj.fly(1);
+ }
+	 public void fly(String name,String colour) {
+			System.out.println(name);
+			System.out.println(colour);
+	 }	 
+ }
+
+class bird extends Polymorphism{
+	public void fly(int qty) {
+		System.out.println(qty);
+	}
+}
