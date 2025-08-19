@@ -1,0 +1,20 @@
+//Runtime polymorphism/method overriding
+
+public class Polymorphism {
+	 public static void main(String[] str) {
+		 Polymorphism obj=new bird();
+		 obj.fly("parrot","green");
+		 
+	 }
+		 public void fly(String name,String colour) {
+				System.out.println(name+"+"+colour);
+				
+		 }	 
+	 }
+
+	class bird extends Polymorphism{
+		@Override
+		public void fly(String name,String colour) {
+			System.out.println(name+"-"+colour);
+		}
+	}
