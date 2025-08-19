@@ -1,0 +1,80 @@
+package adiyogii;
+
+//single inheritance
+public class Inheritance {
+	public static void main(String[] str) {
+		System.out.println("action");
+		new student().act();
+	}
+}
+class student extends Inheritance{
+	public void act() {
+	System.out.println("read");
+}
+}
+
+
+//multilevel inheritance
+public class Inheritance {
+	public static void main(String[] str) {
+		System.out.println("action");
+		new staff().act();
+		new staff().scold();
+	}
+}
+class student extends Inheritance{
+	public void act() {
+	System.out.println("read");
+}
+}
+class staff extends student{
+	public void scold() {
+		System.out.println("beat");
+	}
+}
+	
+
+//Hierarchical inheritance
+public class Inheritance {
+	public static void main(String[] str) {
+		System.out.println("action");
+		new student().act();
+		new staff().scold();
+	}
+}
+class student extends Inheritance{
+	public void act() {
+	System.out.println("read");
+}
+}
+class staff extends Inheritance{
+	public void scold() {
+		System.out.println("beat");
+	}
+}
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
