@@ -1,0 +1,53 @@
+package adiyogii;
+
+//Abstraction
+
+public class Abstraction {
+ public static void main(String[] str) {
+	 new sparrow().sound();
+	 new eagle().eat();
+	 new parrot().fly();
+	 new pigeon().sit("blue","pigeon");
+	 new owl().sit("blue",1);
+	 System.out.println("dove");
+ }
+}
+abstract class birds{            //abstract class
+	static{
+	System.out.println("grains"); //static block
+	}
+abstract public void fly();      //abstract method
+abstract public void sound();
+abstract public void eat();
+}
+class parrot extends birds{       //single inheritance
+	public void fly() {
+		System.out.println("high");
+	}
+}
+class crow extends birds{         //multilevel inheritance
+	public void sound() {
+		System.out.println("ka ka");
+	}
+}
+class sparrow extends crow{        //Hierarchical inheritance
+		public void eat() {
+			System.out.println("food");
+		}
+}
+class eagle extends sparrow{        //method overriding
+	@Override
+	public void eat() {
+		System.out.println("snake");
+	}
+}
+class owl extends sparrow{          //method overloading
+	public void sit(String colour,int age) {
+		System.out.println(colour+","+age);
+	}
+}
+class pigeon extends sparrow{
+	public void sit(String colour,String name) {
+		System.out.println(colour+","+name);
+	}
+}
