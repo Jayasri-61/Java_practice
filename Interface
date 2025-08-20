@@ -1,0 +1,36 @@
+public class Interface {
+public static void main(String[] str) {
+	deer obj=new deer();
+	obj.eat();
+	obj.sleep();
+	new housefly().run();
+	new dragonfly().fly();
+}
+}
+interface animal{
+	void eat();	
+}
+interface insect{
+	void sleep();
+}
+interface flies{
+	void sleep();
+}
+class deer implements animal,insect{
+	public void eat(){
+	System.out.println("food");
+}
+	public void sleep(){
+    System.out.println("day");
+}
+}
+class housefly implements flies{
+	public void run(){
+		System.out.println("organisms");
+}
+}
+class dragonfly implements flies{
+	public void fly(){
+		System.out.println("night");
+}
+}
