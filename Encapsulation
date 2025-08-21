@@ -1,0 +1,21 @@
+public class Encapsulation {
+    public static void main(String[] str) {
+    	Account obj=new Account();
+    	obj.setDeposit(5000);
+    	obj.setWithdraw(500);
+    	System.out.println(obj.getbalance());
+    }
+    }
+class Account{
+	private int balance=3000;
+	
+	public void setDeposit(int amount) {
+		balance += amount;
+	}
+	public void setWithdraw(int amount) {
+		balance -= amount;
+	}
+	public int getbalance() {
+		return balance;
+	}
+}
