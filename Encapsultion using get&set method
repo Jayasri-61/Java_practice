@@ -1,0 +1,22 @@
+public class Encapsulation {
+    public static void main(String[] str) {
+    	Animal obj=new Animal();
+    	obj.lion("roar");
+    	obj.tiger("eat");
+    	obj.data();
+    }
+}
+class Animal{
+	private String dog;
+	private String cat;
+public void lion(String no) {
+	dog = no;
+}
+public void tiger(String num) {
+    cat = num;
+}
+public void data() {
+System.out.println("lion:"+dog);
+System.out.println("tiger:"+cat);
+}
+}
