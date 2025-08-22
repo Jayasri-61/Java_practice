@@ -1,0 +1,21 @@
+public class Coupling {
+      public static void main(String[] str){
+
+      	College obj=new College();
+      	obj.name("Aec");
+      	obj.display();
+      	College obj1=new College();
+      	obj.name("Annapoorana");
+      	obj.display();
+        }
+  }
+  class College{
+  	String college_name;
+  	
+  public void name(String place) {
+  	college_name=place;
+  }
+  public void display() {
+  	System.out.println("college:"+college_name);
+  }
+  }
