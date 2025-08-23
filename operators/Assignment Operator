@@ -1,0 +1,18 @@
+public class Operator {
+    public static void main(String[] str) {
+int e=20;
+int f=30;
+System.out.println(e+=f);
+System.out.println(e);
+System.out.println(e-=f);
+System.out.println(e);
+System.out.println(e*=f);
+System.out.println(e);
+System.out.println(e/=f);
+System.out.println(e);
+System.out.println(e>>=f);
+System.out.println(e);
+System.out.println(e<<=f);
+System.out.println(e);
+}
+}
