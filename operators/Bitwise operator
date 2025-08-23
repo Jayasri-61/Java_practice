@@ -1,0 +1,11 @@
+public class Operator {
+    public static void main(String[] str) {
+int j=10;
+int k=4;
+System.out.println(j>k && j>=k);
+System.out.println(j>k | j>=k);
+System.out.println(j<k ^ j==k);
+System.out.println(j>k ^ j>=k);
+System.out.println(j<k ^ j>k);	
+}
+}
