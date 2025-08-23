@@ -1,0 +1,9 @@
+//If statement
+public class Controls {
+      public static void main(String args[]) {
+    	  int x=10;
+    	  if (x>=18){
+    		  System.out.println("Eligible for vote");
+    	  }
+      }
+}
