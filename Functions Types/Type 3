@@ -1,0 +1,14 @@
+
+//Function with arguments and without return type
+
+public class function3 {
+public static void main(String[] str) {
+	 int x=3;
+	int y=34;
+	vel(x,y);
+}
+public static void vel(int x,int y) {
+    int z=x+y;
+    System.out.println(z); 
+}
+}
