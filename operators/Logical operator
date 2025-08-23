@@ -1,0 +1,10 @@
+public class Operator {
+    public static void main(String[] str) {
+int z=10;
+int y=20;
+System.out.println(z<y && z>y);
+System.out.println(z<y || z==y);
+System.out.println(z==y && z>y);
+System.out.println(z>y || z==y);
+}
+}
