@@ -1,0 +1,19 @@
+public class Controls {
+  public static void main(String args[]) {
+	  int x=100;
+	  switch(x){
+	  case 18:
+		  System.out.println("Positive");
+		  break;
+	  case 100:
+		  System.out.println("Negative");
+		  break;
+	  case 36:
+		  System.out.println("Zero");
+		  break;
+	  default:
+		  System.out.println("Null");
+		  break;
+	  }
+  }
+}
