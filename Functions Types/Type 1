@@ -1,0 +1,13 @@
+//Function with arguments and with return type
+
+public class Functions {
+public static void main(String[] str) {
+		int x=3,y=34;
+		int z=vel(x,y);
+		System.out.println(z);
+	}
+public static int vel(int x,int y) {
+	int z=x+y;
+	return z;
+}
+}
