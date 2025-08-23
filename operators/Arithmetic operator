@@ -1,0 +1,11 @@
+public class Operator {
+    public static void main(String[] str) {
+int m=10;
+int n=20;
+System.out.println(m+n);
+System.out.println(m-n);
+System.out.println(m*n);
+System.out.println(m/n);
+System.out.println(m%n);
+}
+}
