@@ -1,0 +1,9 @@
+public class Operator {
+    public static void main(String[] str) {
+int g=20;
+int h=3;
+System.out.println(g>>h);
+System.out.println(g<<h);
+System.out.println(g>>>h);
+}
+}
