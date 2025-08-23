@@ -1,0 +1,12 @@
+public class Operator {
+    public static void main(String[] str) {
+      int v=10;
+int w=20;
+System.out.println(v==w);
+System.out.println(v!=w);
+System.out.println(v>=w);
+System.out.println(v<=w);
+System.out.println(v>w);
+System.out.println(v<w);
+    }
+  }
