@@ -1,0 +1,15 @@
+public class Controls{
+	public static void main(String[] str) {
+		double basic_salary=11000.00;
+		double gross_salary=0.0;
+   if (basic_salary<=10000) {
+	   gross_salary = (basic_salary+(basic_salary*20/100)+(basic_salary*8/100));
+   }else if(basic_salary<=20000) {
+	   gross_salary = (basic_salary+(basic_salary*25/100)+(basic_salary*9/100));   
+   }else if(basic_salary>2000) {
+	   gross_salary = (basic_salary+(basic_salary*30/100)+(basic_salary*9/100));	   
+   }
+   System.out.println("Basic_salary:"+basic_salary);
+   System.out.println("Gross_salary:"+gross_salary);  
+}
+}
