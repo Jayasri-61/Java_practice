@@ -1,0 +1,10 @@
+public class WhileLoop {
+ public static void main(String[] str)
+ {
+	 int i=56;
+	 while(i%2==0) {
+		 i++;
+		 System.out.println(i);
+	 }
+ }
+}
