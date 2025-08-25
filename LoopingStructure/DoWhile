@@ -1,0 +1,11 @@
+public class WhileLoop {
+public static void main(String[] str)
+{
+	 int i=5;
+	 do{
+
+		 System.out.println(i);	
+	 }
+	 while(i>18);
+}
+}
