@@ -1,0 +1,7 @@
+public class Controls {
+    public static void main(String[] str) {
+    	int v=34,j=56;
+   	   System.out.println(v+j);
+    	return ;
+    }
+    }
