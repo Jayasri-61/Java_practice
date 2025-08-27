@@ -1,0 +1,47 @@
+import java.util.Scanner;
+public class NumberGuessing {
+    public static void main(String[] str) {
+    	Game();
+    }  	
+		public static void Game() {
+    	Scanner sc=new Scanner(System.in);
+    	System.out.println("Actual number chosen between 1 and 100");
+    	System.out.println("you have 3 chances to guess result");
+    	int i=1+(int)(100* Math.random());
+    	int j=3;
+    	int attempts=0;
+    	boolean guesscorrect=false;
+    	while(!guesscorrect) {
+    	for(int k=0;k<j;k++) {   		
+    		System.out.println("Enter your Guess:");
+    		int number= sc.nextInt();
+    		attempts++;
+		if(number==i) { 
+			
+    		System.out.println("Congratulations your guessing is right");
+    		System.out.println("Game is over, Number was "+i);
+    		guesscorrect=true;
+    		break;
+    	}
+    	else if(number<i) {
+    		System.out.println("Actual number is greater than your guess");    		
+    	}
+    	else {
+    		System.out.println("Actual number is lesser than your guess");
+    		
+    	}
+    	} 
+    	if(!guesscorrect) {
+    		System.out.println("you lost your 3 chances");
+			System.out.println("Do you want to continue again?yes/no:");
+			String say = sc.next();
+		if(!say.equalsIgnoreCase("yes")) {
+			System.out.println("Game is over, Number was "+i);
+			break;
+		}		
+}
+}
+    	sc.close();
+}	
+		
+}
