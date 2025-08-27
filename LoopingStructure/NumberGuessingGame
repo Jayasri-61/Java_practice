@@ -23,6 +23,6 @@ public class NumberGuessing {
     		System.out.println("Actual number is lesser than your guess");
     	}
     }
-    	System.out.println("Your lost your chances, The Number was "+i); 
+    	System.out.println("You lost your chances, The Number was "+i); 
     	}
     }
