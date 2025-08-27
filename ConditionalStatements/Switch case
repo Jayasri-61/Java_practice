@@ -1,4 +1,4 @@
-public class Controls {
+public class Conditions {
   public static void main(String args[]) {
 	  int x=100;
 	  switch(x){
