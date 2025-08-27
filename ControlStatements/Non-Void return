@@ -1,0 +1,9 @@
+public class Controls {
+    public static void main(String[] str) {
+    	int v=add(45,56);
+   	   System.out.println(v);
+   	 }
+    public static int add(int a,int b) {
+    	return a+b;
+    }
+    }
