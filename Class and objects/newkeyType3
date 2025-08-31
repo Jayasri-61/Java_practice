@@ -1,13 +1,17 @@
 public class newKey{
 public static void main(String[] str) {
-	Details obj=new Details();
+	Details obj=new Details(34,56);
+	obj.Details();
 }
 }
 class Details{
-	String name="Jayasri";
-	int age=20;		
-Details() {	
-	System.out.println(name+","+age);
-	System.out.println("Marks");
-}
+	String name="Kavi";
+	int age=5;
+void Details() {	
+		System.out.println(name+","+age);
+	}
+Details(int number,int marks){
+		System.out.println(number+","+marks);
+	}
+
 }
