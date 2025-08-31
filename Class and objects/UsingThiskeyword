@@ -1,0 +1,19 @@
+public class UsingThis {
+        public static void main(String[] str) {
+        Student obj=new Student();
+        obj.setAge(34);
+        obj.name="reshu";
+        obj.show();
+        }
+}
+class Student{
+	int age;
+	String name;
+	void setAge(int age) {
+		this.age=age;
+		   System.out.println(this.age);
+	}
+	void show() {
+		System.out.println(name);
+	}
+}
