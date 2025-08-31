@@ -1,0 +1,20 @@
+public class AsciiValues {
+public static void main(String[] str) {
+	char a='q';
+	int b=(int) a;
+	System.out.println("q : "+b);
+	char c ='_';
+	int d=(int)c;
+	System.out.println("_ : "+d);
+	char e =' ';
+	int f=(int)e;
+	System.out.println("'' : "+f);
+	char tamil='\u0B85';
+	char smile='\u263A';
+	char hello='\127';
+	int hii=(int) hello;
+	System.out.println(hii);
+	System.out.println("Tamil : "+tamil);
+	System.out.println("Smile : "+smile);
+}
+}
