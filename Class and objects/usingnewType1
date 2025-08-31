@@ -1,0 +1,13 @@
+public class newKey{
+public static void main(String[] str) {
+     new Details();                             
+}
+}
+class Details{
+	String name="Jayasri";
+	int age=20;		
+Details() {	
+	System.out.println(name+","+age);
+	System.out.println("Marks");
+}
+}
