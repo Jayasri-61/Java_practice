@@ -1,0 +1,40 @@
+import java.util.Scanner;
+public class Calculator {
+	   int num1,num2;
+         public static void main(String[] str) { 
+        Calc obj= new Calc();
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter 1st number:");
+        obj.num1 = sc.nextInt();
+        System.out.println("Enter 2nd number:");
+        obj.num2 = sc.nextInt();      	
+      	obj.add();
+      	obj.sub();
+      	obj.mul();
+      	obj.div();
+         }
+}
+class Calc extends Calculator{	
+	int num3;
+	void add() {
+		num3=(num1+num2);
+		System.out.println("Addition = "+num3);
+	}
+	void sub() {
+		num3=(num1-num2);
+		System.out.println("Subtraction = "+num3);
+	}
+	void mul() {
+		num3=(num1*num2);
+		System.out.println("Multiplication = "+num3);
+	}
+	void div() {
+		if(num2==0) {
+			System.out.println("Not Divisible by Zero");
+		}
+		else {
+		num3=(num1/num2);
+		System.out.println("Division = "+num3);
+		}
+	}
+}
