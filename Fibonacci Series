@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Fibonacci {
+    int f3=0; 
+    int uplimit; 
+public static void main(String[] str) {	 
+    	Fibonacci obj=new Fibonacci(); 
+    	System.out.println("Enter a limit:"); 
+    	Scanner sc=new Scanner(System.in); 
+    	obj.uplimit= sc.nextInt();
+    	System.out.println("Fibonacci Series");
+    	obj.fibonacci();    	    	     	 
+}          
+   void fibonacci() {
+	   int f1=0;
+	   int f2=1;
+    while(f1<=uplimit) {
+    	
+    	 System.out.print(f1+" "); 
+    		     f3=f1+f2;
+    	    	 f1=f2; 
+    	    	 f2=f3;  
+    	     }
+    	}     
+}
